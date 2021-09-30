@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Pizzaria</title>
+    <link rel="icon" href="imagens/pizza-icone.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+
+<body>
+    <main class="container">
+        <header class="cabecalho">
+            <img src="imagens/logotipo.png" class="logo cabecalho" alt="Super pizza">
+            <a href="#" class="disk-entrega">Disk Entregas:
+                <br>(19) 1234-5678
+            </a>
+        </header>
+        <nav class="menu-navegacao">
+            <ul class="menu-menu">
+                <li><a href="site-pizzaria.html">Home</a></li>
+                <li><a href="quemsomos.html">Quem somos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="conteudo-principal">
+            <h1 class="titulo">Entre em contato</h1>
+            <hr>
+
+            <div class="linha-1">
+                <div class="coluna-formulario">
+
+                    <h2 class="mensagem-de-contato">Envie uma mensagem</h2>
+                    <h3 class="formulario">Utilize o formulário de contato para enviar sua mensagem:</h3>
+
+                    <form action="cadastrar" method="post">
+                        <p>
+                        <div class="nome"><label for="nome" class="nome">Nome</label><br> </div>
+                        <input id="nome" type="text" name="nome">
+
+                        </p>
+
+                        <p>
+                        <div class="email"><label for="email" class="email">Email</label><br></div>
+                        <input id="email" type="email" name="email">
+                        </p>
+
+                        <p>
+                        <div class="mensagem"><label for="mensagem" class="mensagem">Mensagem </label><br></div>
+                        <textarea id="mensagem"></textarea>
+                        </p>
+
+                        <button type="submit" class="botao">Enviar</button>
+                    </form>
+                </div>
+                <div class="coluna-endereco">
+                    <div class="endereco">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.3301458830665!2d-47.33128058454593!3d-22.75312603812745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8998174c896b9%3A0x739b7f99b3323574!2sSenac%20Americana!5e0!3m2!1spt-BR!2sbr!4v1607794444349!5m2!1spt-BR!2sbr"
+                            width="300" height="200" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
+
+                        <h2 class="letra-maior">Endereço</h2>
+                        <h4>Rua Teste, 123, Bairro<br>
+                            Sede, Americana - SP</h4>
+
+                        <h2 class="letra-maior">Email</h2>
+                        <h4>contato@superpizza.com.br</h4>
+
+                        <h2 class="letra-maior">Telefone</h2>
+                        <h4>(19) 1234-5678</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rodape">
+            <p>Aula do SENAC. Declaração de direitos autorais.</p>
+        </div>
+    </main>
+    
+</body>
+
+</html>

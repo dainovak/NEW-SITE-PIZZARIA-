@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Sedgwick+Ave+Display&display=swap');
+
+*{
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url('../imagens/fundo.jpg');
+    font-family: 'Montserrat';
+    margin: 0;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1300px;
+}
+
+.cabecalho{
+    background-color: #B22D00;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    padding-right: 50px;
+    padding-left: 0;
+    }
+
+.logo-cabecalho{
+    width: 80px;
+}
+
+.disk-entrega{
+    font-family: 'Montserrat';
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+hr{
+    height: 3px;
+    border-color: black;
+    background: black;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.menu-menu{
+   display: flex;
+}
+
+.menu-menu li{
+    margin-right: 10px;
+}
+
+.menu-menu a{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.menu-navegacao{
+    background-color: #DAA402;
+    padding: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+    }
+
+    .menu-navegacao a{
+        color: black;
+        margin-left: 100px;
+        font-weight: 200px ;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: 'montserrat';
+        padding: 2px;
+    }
+
+.titulo{
+    font-family: 'Montserrat';
+    font-size: 45px;
+    font-weight: 500;
+    color: black;
+    text-align: left;
+    margin-left: 35px;
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
+
+.banner{
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.linha-banner{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'montserrat';
+}
+
+.corpo{
+    background-color:white;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.lista{
+    column-count: 3;
+    font-family: 'Montserrat';
+    text-align: left;
+    padding-left: 20px;
+}
+
+.linha{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 50px;
+}
+
+.coluna-1{
+    width: 500px;
+    padding: 5px;
+    font-family: 'montserrat';
+}
+
+.coluna-1 img{
+    float: left;
+}
+
+.titulo-sabor{
+    font-family: 'montserrat';
+    font-weight:400;
+    font-size: 36px;
+    text-align: left;
+    padding-left: 40px;
+    padding-bottom: 30px;
+}
+
+.titulo-casa{
+    font-family: 'montserrat';
+    font-weight:400;
+    font-size: 36px;
+    text-align: right;
+    padding-left: 40px;
+    padding-bottom: 30px;
+}
+
+.rodape{
+    background: rgb(54,54,54);
+    padding: 10px 30px;
+    color: white;
+    font-size: 16px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+
+/*começa o css da segunda página*/
+
+.conteudo-principal{
+    background: white;
+    color: rgb(54,54,54);
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'montserrat';
+}
+
+.botao{
+    background: #D96D00;
+    border:#D96D00;
+    padding: 5px 18px;
+    color: white;
+    margin-top: 30px;
+    display: inline-block;
+    font-family: 'montserrat';
+}
+
+.linha-1{
+    padding-left: 30px;
+    font-family:'montserrat';
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mensagem-de-contato{
+    font-family: 'montserrat';
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.formulario{
+    font-family: 'montserrat';
+    padding-bottom: 20px;
+}
+
+.nome{
+    font-family: 'montserrat';
+    padding-top: 20px;
+    
+}
+
+.email{
+    font-family: 'montserrat';
+    font-weight: 400;
+    padding-top: 30px;
+    
+}
+
+.mensagem{
+    font-family: 'montserrat';
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.endereco{
+    text-align:right;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+
+.letra-maior{
+    font-family: 'montserrat';
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.foto-forno{
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+/*quem somos css*/
+
+.historia{
+    margin-left: 40px;
+    font-size: 16px;
+}
+
+.titulo-2{
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.missao-visao{
+    margin-left: 40px;
+    padding-bottom: 120px;
+    font-size: 16px;
+}
+
+.galeria{
+    font-size: 24px;
+    padding-left: 50%;
+    margin-top: -553px;
+}
+
+.galeria-pizza{
+    display: block;
+}
+
+.galeria img{
+    width: 150px;
+}
+
+.valores{
+    padding-top: 45px;
+    padding-left: 550px;
+    font-size: 24px;
+}
+
+.valores ul{
+    font-family: 'montserrat';
+    list-style: none;
+    padding-left: 3px;
+    padding-bottom: 50px;
+    font-size: 16px;
+}
